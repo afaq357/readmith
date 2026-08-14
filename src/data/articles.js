@@ -1,0 +1,499 @@
+export const articles = [
+  {
+    "id": 1,
+    "slug": "future-of-ai",
+    "title": "The Future of Artificial Intelligence",
+    "description": "Explore how AI is transforming healthcare, finance, education, and modern businesses worldwide.",
+    "category": "ai",
+    "featured": true,
+    "image": "https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "author": "Editorial Team",
+    "publishedAt": "2026-07-03",
+    "readTime": "6 min",
+    "content": "future-of-ai"
+  },
+  {
+  id: 2,
+  slug: "cloud-computing-business-growth",
+  title: "How Cloud Computing Is Accelerating Modern Business Growth",
+  description:
+    "Discover how cloud computing helps businesses reduce costs, improve collaboration, and scale operations in an increasingly digital world.",
+  category: "technology",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-07-04",
+  readTime: "7 min",
+  content: "cloud-computing-business-growth",
+},
+
+{
+  id: 3,
+  slug: "rise-of-5g-technology",
+  title: "The Rise of 5G: How Faster Networks Are Changing Everyday Life",
+  description:
+    "Discover how 5G technology is transforming communication, smart cities, entertainment, healthcare, and the future of connected devices.",
+  category: "technology",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-07-06",
+  readTime: "6 min",
+  content: "rise-of-5g-technology",
+},
+{
+  id: 4,
+  slug: "cybersecurity-best-practices-2026",
+  title: "Cybersecurity in 2026: How to Stay Safe in an Increasingly Connected World",
+  description:
+    "Learn practical cybersecurity strategies to protect personal information, online accounts, and business data from modern cyber threats.",
+  category: "technology",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-07-08",
+  readTime: "8 min",
+  content: "cybersecurity-best-practices-2026",
+},
+{
+  id: 5,
+  slug: "small-business-digital-transformation",
+  title: "Why Small Businesses Are Embracing Digital Transformation",
+  description:
+    "Learn how digital tools, cloud platforms, automation, and data analytics are helping small businesses compete and grow in today's economy.",
+  category: "business",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-07-10",
+  readTime: "7 min",
+  content: "small-business-digital-transformation",
+},
+{
+  id: 6,
+  slug: "rise-of-remote-work",
+  title: "The Rise of Remote Work: How Businesses Are Adapting to a Flexible Future",
+  description:
+    "Explore how remote work is changing company culture, improving flexibility, and influencing the future of modern workplaces.",
+  category: "business",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-07-12",
+  readTime: "6 min",
+  content: "rise-of-remote-work",
+},
+{
+  id: 7,
+  slug: "entrepreneurship-digital-economy",
+  title: "Why Entrepreneurship Is Thriving in the Digital Economy",
+  description:
+    "Discover how online platforms, remote work, and digital tools are making it easier than ever to launch and grow a successful business.",
+  category: "business",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-07-14",
+  readTime: "7 min",
+  content: "entrepreneurship-digital-economy",
+},
+
+{
+  id: 8,
+  slug: "generative-ai-changing-work",
+  title: "How Generative AI Is Changing the Way People Work",
+  description:
+    "Explore how generative AI is improving productivity, creativity, software development, and everyday business operations.",
+  category: "ai",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1737644467636-6b0053476bb2?q=80&w=1072&auto=format&fit=crop",
+  author: "Editorial Team",
+  publishedAt: "2026-07-16",
+  readTime: "8 min",
+  content: "generative-ai-changing-work",
+},
+
+{
+  id: 9,
+  slug: "machine-learning-everyday-life",
+  title: "How Machine Learning Is Powering Everyday Digital Experiences",
+  description:
+    "From streaming platforms to online shopping, learn how machine learning influences the digital services people use every day.",
+  category: "ai",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-07-18",
+  readTime: "6 min",
+  content: "machine-learning-everyday-life",
+},
+
+{
+  id: 10,
+  slug: "wearable-technology-future",
+  title: "The Future of Wearable Technology and Smart Devices",
+  description:
+    "Discover how smartwatches, fitness trackers, and connected wearables are improving health, productivity, and everyday convenience.",
+  category: "technology",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1510017803434-a899398421b3?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-07-20",
+  readTime: "7 min",
+  content: "wearable-technology-future",
+},
+
+{
+  id: 11,
+  slug: "sustainable-fashion-future",
+  title: "How Sustainable Fashion Is Shaping the Future of the Industry",
+  description:
+    "Explore how eco-friendly materials, ethical manufacturing, and conscious consumer choices are transforming the fashion world.",
+  category: "lifestyle",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1659356577423-3f6e07b793e4?q=80&w=1170&auto=format&fit=crop",
+  author: "Editorial Team",
+  publishedAt: "2026-07-22",
+  readTime: "6 min",
+  content: "sustainable-fashion-future",
+},
+
+{
+  id: 12,
+  slug: "fashion-trends-2026",
+  title: "Top Fashion Trends Defining Style in 2026",
+  description:
+    "A look at the biggest fashion trends, colors, fabrics, and accessories influencing designers and consumers this year.",
+  category: "lifestyle",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-07-24",
+  readTime: "5 min",
+  content: "fashion-trends-2026",
+},
+
+{
+  id: 13,
+  slug: "renewable-energy-global-growth",
+  title: "Renewable Energy Continues to Drive Global Investment",
+  description:
+    "Governments and businesses are investing heavily in renewable energy as sustainability becomes a long-term economic priority.",
+  category: "news",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-07-26",
+  readTime: "6 min",
+  content: "renewable-energy-global-growth",
+},
+
+{
+  id: 14,
+  slug: "electric-vehicles-market-growth",
+  title: "Electric Vehicles Continue to Transform the Global Automotive Industry",
+  description:
+    "The electric vehicle market continues to expand as manufacturers invest in innovation, charging infrastructure, and battery technology.",
+  category: "news",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1593941707874-ef25b8b4a92b?w=1200&auto=format&fit=crop&q=80",
+  author: "Editorial Team",
+  publishedAt: "2026-07-28",
+  readTime: "6 min",
+  content: "electric-vehicles-market-growth",
+},
+
+{
+  id: 15,
+  slug: "space-exploration-commercial-era",
+  title: "Commercial Space Exploration Enters a New Era",
+  description:
+    "Private companies are accelerating space exploration through reusable rockets, satellite technology, and ambitious lunar missions.",
+  category: "news",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-07-30",
+  readTime: "7 min",
+  content: "space-exploration-commercial-era",
+},
+{
+  id: 16,
+  slug: "global-oil-prices-market-outlook",
+  title: "Global Oil Prices: What's Driving Energy Markets This Week?",
+  description:
+    "A look at the major factors influencing global oil prices, supply chains, and the economic outlook for consumers and businesses.",
+  category: "news",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=1200&auto=format&fit=crop&q=80",
+  author: "Editorial Team",
+  publishedAt: "2026-08-01",
+  readTime: "6 min",
+  content: "global-oil-prices-market-outlook",
+},
+{
+  id: 17,
+  slug: "biotech-breakthroughs-2026",
+  title: "Biotech Breakthroughs Reshaping Healthcare in 2026",
+  description:
+    "Explore how gene editing, AI-powered drug discovery, and precision medicine are transforming healthcare innovation.",
+  category: "technology",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-08-03",
+  readTime: "8 min",
+  content: "biotech-breakthroughs-2026",
+  metaTitle: "Biotech Breakthroughs Reshaping Healthcare in 2026",
+  metaDescription: "Discover the biggest biotech breakthroughs transforming healthcare through gene editing, AI drug discovery, and precision medicine.",
+  metaKeywords: "biotech, healthcare innovation, gene editing, precision medicine, AI in medicine",
+},
+{
+  id: 18,
+  slug: "digital-wallets-and-fintech-evolution",
+  title: "Digital Wallets and the Fast Evolution of Fintech",
+  description:
+    "See how digital wallets, embedded finance, and new payment rails are redefining the future of money and commerce.",
+  category: "business",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-08-05",
+  readTime: "7 min",
+  content: "digital-wallets-and-fintech-evolution",
+  metaTitle: "Digital Wallets and the Fast Evolution of Fintech",
+  metaDescription: "Explore how digital wallets, embedded finance, and new payment rails are changing how people pay and do business.",
+  metaKeywords: "fintech, digital wallets, payments, embedded finance, online banking",
+},
+{
+  id: 19,
+  slug: "smart-cities-connected-infrastructure",
+  title: "Smart Cities Are Reimagining Urban Infrastructure",
+  description:
+    "Discover how connected transport, intelligent energy systems, and digital governance are shaping the cities of tomorrow.",
+  category: "technology",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-08-07",
+  readTime: "7 min",
+  content: "smart-cities-connected-infrastructure",
+},
+{
+  id: 20,
+  slug: "green-hydrogen-energy-transition",
+  title: "Green Hydrogen and the Next Chapter of the Energy Transition",
+  description:
+    "Learn why green hydrogen could become a major tool for decarbonizing industry, transport, and long-term energy storage.",
+  category: "news",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200",
+  author: "Editorial Team",
+  publishedAt: "2026-08-09",
+  readTime: "8 min",
+  content: "green-hydrogen-energy-transition",
+  metaTitle: "Green Hydrogen and the Next Chapter of the Energy Transition",
+  metaDescription: "Learn how green hydrogen could help decarbonize industry, transport, and energy storage in the next phase of the clean energy transition.",
+  metaKeywords: "green hydrogen, clean energy, energy transition, hydrogen economy, renewable energy",
+},
+{
+  id: 21,
+  slug: "celebrity-style-red-carpet-evolution",
+  title: "Celebrity Style and the Red Carpet Evolution",
+  description:
+    "Explore how red carpet fashion, beauty trends, and celebrity influence shape modern style culture worldwide.",
+  category: "celebrities",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=80",
+  author: "Editorial Team",
+  publishedAt: "2026-08-11",
+  readTime: "6 min",
+  content: "celebrity-style-red-carpet-evolution",
+  metaTitle: "Celebrity Style and the Red Carpet Evolution",
+  metaDescription: "See how celebrity fashion, beauty trends, and red carpet moments influence global style and pop culture.",
+  metaKeywords: "celebrity fashion, red carpet style, celebrity beauty, fashion trends, pop culture",
+},
+{
+  id: 22,
+  slug: "modeling-industry-modern-icons",
+  title: "The Modeling Industry and the Rise of Modern Icons",
+  description:
+    "Discover how the modeling world has evolved into a digital, global industry driven by icons, branding, and influence.",
+  category: "celebrities",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=1200&q=80",
+  author: "Editorial Team",
+  publishedAt: "2026-08-13",
+  readTime: "6 min",
+  content: "modeling-industry-modern-icons",
+  metaTitle: "The Modeling Industry and the Rise of Modern Icons",
+  metaDescription: "Learn how modeling has evolved into a digital, global industry shaped by modern icons and personal branding.",
+  metaKeywords: "modeling industry, fashion models, celebrity culture, fashion branding, modern icons",
+},
+{
+  id: 23,
+  slug: "celebrity-brand-building-digital-age",
+  title: "Celebrity Brand Building in the Digital Age",
+  description:
+    "Learn how celebrities turn fame into powerful personal brands through social media, lifestyle, and business partnerships.",
+  category: "celebrities",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
+  author: "Editorial Team",
+  publishedAt: "2026-08-15",
+  readTime: "7 min",
+  content: "celebrity-brand-building-digital-age",
+  metaTitle: "Celebrity Brand Building in the Digital Age",
+  metaDescription: "Explore how celebrities build personal brands through social media, fashion, beauty, and business ventures.",
+  metaKeywords: "celebrity branding, social media influence, personal brand, celebrity business, influencer culture",
+},
+{
+  id: 24,
+  slug: "sydney-sweeney-biography",
+  title: "Sydney Sweeney: Biography, Career, Movies, Net Worth & Latest Updates",
+  description:
+    "Explore Sydney Sweeney's journey from rising actress to Hollywood star, including her career, popular movies, television roles, achievements, and latest projects.",
+  category: "celebrities",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80",
+  author: "Editorial Team",
+  publishedAt: "2026-08-13",
+  readTime: "8 min",
+  content: "sydney-sweeney-biography",
+  metaTitle: "Sydney Sweeney Biography, Movies, Net Worth & Latest News",
+  metaDescription:
+    "Read about Sydney Sweeney's biography, acting career, movies, television shows, achievements, net worth, and the latest updates.",
+  metaKeywords:
+    "Sydney Sweeney, Sydney Sweeney biography, Sydney Sweeney movies, Sydney Sweeney net worth, Hollywood actress",
+},
+{
+  id: 25,
+  slug: "zendaya-hollywood-influence",
+  title: "How Zendaya Became One of Hollywood's Most Influential Stars",
+  description:
+    "Explore how Zendaya evolved from a Disney Channel star into one of Hollywood's most respected actresses, fashion icons, and global entertainers.",
+  category: "celebrities",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
+  author: "Editorial Team",
+  publishedAt: "2026-08-14",
+  readTime: "7 min",
+  content: "zendaya-hollywood-influence",
+  metaTitle: "How Zendaya Became One of Hollywood's Most Influential Stars",
+  metaDescription:
+    "Learn how Zendaya built an award-winning career in Hollywood through acclaimed acting, fashion influence, blockbuster films, and television success.",
+  metaKeywords:
+    "Zendaya, Zendaya career, Zendaya Hollywood, Zendaya movies, Zendaya fashion, Zendaya actress, Hollywood celebrities",
+},
+{
+  id: 26,
+  slug: "margot-robbie-producing-hollywood",
+  title: "How Margot Robbie Is Shaping the Future of Hollywood Through Producing",
+  description:
+    "Explore how Margot Robbie has expanded beyond acting by producing critically acclaimed films and championing original storytelling in Hollywood.",
+  category: "celebrities",
+  featured: true,
+  image:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiYtNqK_JSL1uDEU1XpDDv7EX8yM7r1PujRC8DXzpoUtWvx3W-KK5wDRpR&s=10",
+  author: "Editorial Team",
+  publishedAt: "2026-08-16",
+  readTime: "8 min",
+  content: "margot-robbie-producing-hollywood",
+  metaTitle: "How Margot Robbie Is Changing Hollywood as a Producer",
+  metaDescription:
+    "Discover how Margot Robbie has become one of Hollywood's leading actresses and producers through award-winning films and creative storytelling.",
+  metaKeywords:
+    "Margot Robbie, Margot Robbie producer, Margot Robbie movies, Hollywood actress, LuckyChap Entertainment",
+},
+
+{
+  id: 27,
+  slug: "jenna-ortega-rising-hollywood-star",
+  title: "Why Jenna Ortega Has Become One of Hollywood's Fastest-Rising Stars",
+  description:
+    "From early television appearances to blockbuster films and streaming hits, discover how Jenna Ortega has become one of Hollywood's brightest young talents.",
+  category: "celebrities",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1200&q=80",
+  author: "Editorial Team",
+  publishedAt: "2026-08-17",
+  readTime: "7 min",
+  content: "jenna-ortega-rising-hollywood-star",
+  metaTitle: "Why Jenna Ortega Is One of Hollywood's Brightest Young Stars",
+  metaDescription:
+    "Explore Jenna Ortega's career, breakthrough performances, successful movies, television roles, and her growing influence in Hollywood.",
+  metaKeywords:
+    "Jenna Ortega, Jenna Ortega career, Jenna Ortega movies, Wednesday actress, Hollywood celebrities",
+},
+
+{
+  id: 28,
+  slug: "ana-de-armas-global-hollywood-success",
+  title: "Ana de Armas' Journey to International Hollywood Success",
+  description:
+    "Discover how Ana de Armas built an international acting career through standout performances, major film roles, and growing global recognition.",
+  category: "celebrities",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80",
+  author: "Editorial Team",
+  publishedAt: "2026-08-18",
+  readTime: "8 min",
+  content: "ana-de-armas-global-hollywood-success",
+  metaTitle: "Ana de Armas' Journey to International Hollywood Success",
+  metaDescription:
+    "Learn how Ana de Armas rose to international fame through acclaimed performances, major Hollywood productions, and a rapidly growing career.",
+  metaKeywords:
+    "Ana de Armas, Ana de Armas movies, Ana de Armas career, Hollywood actress, international actress",
+},
+{
+  id: 29,
+  slug: "emma-stone-award-winning-career",
+  title: "Emma Stone's Award-Winning Career: From Comedy to Hollywood Stardom",
+  description:
+    "Discover how Emma Stone built one of Hollywood's most respected careers through acclaimed performances, blockbuster films, and award-winning roles.",
+  category: "celebrities",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?auto=format&fit=crop&w=1200&q=80",
+  author: "Editorial Team",
+  publishedAt: "2026-08-19",
+  readTime: "8 min",
+  content: "emma-stone-award-winning-career",
+  metaTitle: "Emma Stone's Award-Winning Hollywood Career",
+  metaDescription:
+    "Explore Emma Stone's rise in Hollywood, her award-winning performances, biggest movies, and lasting impact on the film industry.",
+  metaKeywords:
+    "Emma Stone, Emma Stone movies, Emma Stone awards, Hollywood actress, Academy Award winner",
+},
+
+{
+  id: 30,
+  slug: "florence-pugh-modern-hollywood-success",
+  title: "How Florence Pugh Became One of Modern Hollywood's Most Versatile Actresses",
+  description:
