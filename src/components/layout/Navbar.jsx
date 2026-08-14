@@ -101,4 +101,24 @@ function Navbar() {
                       ? "bg-blue-50 text-blue-600"
                       : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
                   }`
-                  
+                }
+              >
+                {item.name}
+              </NavLink>
+            ))}
+            <button
+              onClick={scrollLatest}
+              className="mt-4 flex w-full items-center justify-center rounded-2xl bg-slate-900 py-3.5 text-sm font-bold text-white transition hover:bg-blue-600"
+            >
+              Latest Articles
+            </button>
+          </nav>
+        </div>
+      </header>
+
+      <SearchModal open={searchOpen} onClose={() => setSearchOpen(false)} />
+    </>
+  );
+}
+
+export default Navbar;
