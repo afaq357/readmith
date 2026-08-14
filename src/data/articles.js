@@ -497,3 +497,40 @@ export const articles = [
   slug: "florence-pugh-modern-hollywood-success",
   title: "How Florence Pugh Became One of Modern Hollywood's Most Versatile Actresses",
   description:
+    "Explore Florence Pugh's journey through critically acclaimed films, blockbuster franchises, and the performances that established her as one of Hollywood's leading stars.",
+  category: "celebrities",
+  featured: false,
+  image:
+    "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
+  author: "Editorial Team",
+  publishedAt: "2026-08-20",
+  readTime: "8 min",
+  content: "florence-pugh-modern-hollywood-success",
+  metaTitle: "Florence Pugh's Rise to Hollywood Success",
+  metaDescription:
+    "Learn how Florence Pugh became one of Hollywood's most respected actresses through acclaimed performances and diverse film roles.",
+  metaKeywords:
+    "Florence Pugh, Florence Pugh movies, Florence Pugh career, Hollywood actress, Marvel actress",
+},
+
+{
+  id: 31,
+  slug: "scarlett-johansson-hollywood-legacy",
+  title: "Scarlett Johansson's Lasting Legacy in Hollywood and Global Cinema",
+  description:
+    "Discover how Scarlett Johansson built an extraordinary career through blockbuster films, critically acclaimed performances, and global box office success.",
+  category: "celebrities",
+  featured: true,
+  image:
+    "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1200&q=80",
+  author: "Editorial Team",
+  publishedAt: "2026-08-21",
+  readTime: "9 min",
+  content: "scarlett-johansson-hollywood-legacy",
+  metaTitle: "Scarlett Johansson's Hollywood Legacy and Career",
+  metaDescription:
+    "Explore Scarlett Johansson's successful Hollywood career, blockbuster movies, award-winning performances, and influence on modern cinema.",
+  metaKeywords:
+    "Scarlett Johansson, Scarlett Johansson movies, Scarlett Johansson career, Marvel actress, Hollywood celebrities",
+},
+]
