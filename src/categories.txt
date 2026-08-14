@@ -1,0 +1,9 @@
+// src/data/categories.js
+export const categories = [
+  { slug: "news", name: "News" },
+  { slug: "celebrities", name: "Celebrities" },
+  { slug: "technology", name: "Technology" },
+  { slug: "ai", name: "AI" },
+  { slug: "business", name: "Business" },
+  { slug: "lifestyle", name: "Lifestyle" },
+];
