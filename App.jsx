@@ -374,7 +374,7 @@ function App() {
         .post-card {
           background: #ffffff;
           display: grid;
-          grid-template-columns: 280px 1fr;
+          grid-template-columns: 220px 1fr;
           border-radius: 7px;
           overflow: hidden;
           border: 1px solid #e4e4e4;
@@ -382,7 +382,7 @@ function App() {
 
         .post-image {
           width: 100%;
-          height: 210px;
+          height: 170px;
           overflow: hidden;
         }
 
