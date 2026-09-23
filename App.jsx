@@ -89,7 +89,7 @@ function App() {
         <div className="header-inner">
 
           <a href="/" className="logo">
-            Daily USA News Story
+            The Daily Story Hub
           </a>
 
           <button className="menu-button">
@@ -112,7 +112,7 @@ function App() {
       <main className="main">
 
         <section className="hero">
-          <h1>Daily USA News Story</h1>
+          <h1>The Daily Story Hub</h1>
 
           <p>
             Latest USA news, trending stories and viral stories from around the web.
@@ -168,7 +168,7 @@ function App() {
                     </h2>
 
                     <div className="post-meta">
-                      By Daily USA News Story &nbsp; • &nbsp; {post.date}
+                      By The Daily Story Hub &nbsp; • &nbsp; {post.date}
                     </div>
 
                     <p>
@@ -207,7 +207,7 @@ function App() {
 
         <div className="footer-inner">
 
-          <h3>Daily USA News Story</h3>
+          <h3>The Daily Story Hub</h3>
 
           <p>
             Latest USA news, viral stories, trending topics and interesting stories.
@@ -221,7 +221,7 @@ function App() {
           </div>
 
           <p className="copyright">
-            © 2026 Daily USA News Story. All rights reserved.
+            © 2026 The Daily Story Hub. All rights reserved.
           </p>
 
         </div>
