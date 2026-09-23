@@ -7,7 +7,7 @@ function Contact() {
         <div className="rounded-[32px] border border-gray-200 bg-white p-10 shadow-xl">
           <div className="mb-8 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-blue-600">
-              Contact ReadMith
+              Contact The Daily Story Hub
             </p>
             <h1 className="mt-4 text-4xl font-black text-gray-900">
               Get In Touch
