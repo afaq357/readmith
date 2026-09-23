@@ -20,7 +20,7 @@ function PrivacyPolicy() {
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
             Your privacy is important to us. This Privacy Policy explains
-            what information ReadMith collects, how we use it, and the
+            what information the daily story hub collects, how we use it, and the
             choices you have regarding your personal data when using our
             website.
           </p>
@@ -61,7 +61,7 @@ function PrivacyPolicy() {
                   such as browser type, device information, IP address,
                   operating system, pages visited, referring websites, and
                   general usage statistics to better understand how visitors
-                  use ReadMith.
+                  use The Daily Story Hub
                 </p>
 
               </section>
@@ -96,7 +96,7 @@ function PrivacyPolicy() {
                 </h2>
 
                 <p className="mt-5 leading-8 text-gray-600">
-                  ReadMith may use cookies and similar technologies to
+                  The daily story hub may use cookies and similar technologies to
                   remember user preferences, understand visitor behavior,
                   improve website functionality, and measure the effectiveness
                   of our content.
@@ -185,7 +185,7 @@ function PrivacyPolicy() {
                 </h2>
 
                 <p className="mt-5 leading-8 text-gray-600">
-                  ReadMith is intended for a general audience and is not
+                  The daily story hub is intended for a general audience and is not
                   directed toward children under the age of 13. We do not
                   knowingly collect personal information from children. If
                   such information is discovered, we will promptly remove it.
@@ -242,7 +242,7 @@ function PrivacyPolicy() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-200">
-            At ReadMith, we believe transparency builds trust. We are
+            At The daily story hub, we believe transparency builds trust. We are
             committed to protecting your personal information, respecting
             your privacy, and continuously improving the security of our
             platform as we grow.
