@@ -513,24 +513,4 @@ export const articles = [
     "Florence Pugh, Florence Pugh movies, Florence Pugh career, Hollywood actress, Marvel actress",
 },
 
-{
-  id: 31,
-  slug: "scarlett-johansson-hollywood-legacy",
-  title: "Scarlett Johansson's Lasting Legacy in Hollywood and Global Cinema",
-  description:
-    "Discover how Scarlett Johansson built an extraordinary career through blockbuster films, critically acclaimed performances, and global box office success.",
-  category: "celebrities",
-  featured: false,
-  image:
-    "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1200&q=80",
-  author: "Editorial Team",
-  publishedAt: "2026-08-21",
-  readTime: "9 min",
-  content: "scarlett-johansson-hollywood-legacy",
-  metaTitle: "Scarlett Johansson's Hollywood Legacy and Career",
-  metaDescription:
-    "Explore Scarlett Johansson's successful Hollywood career, blockbuster movies, award-winning performances, and influence on modern cinema.",
-  metaKeywords:
-    "Scarlett Johansson, Scarlett Johansson movies, Scarlett Johansson career, Marvel actress, Hollywood celebrities",
-},
 ]
