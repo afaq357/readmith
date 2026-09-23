@@ -12,7 +12,7 @@ function About() {
         <div className="mx-auto max-w-6xl px-6 py-20 text-center">
 
           <p className="font-semibold uppercase tracking-[0.3em] text-blue-600">
-            About ReadMith
+            About The Daily Story Hub
           </p>
 
           <h1 className="mx-auto mt-6 max-w-4xl text-5xl font-black leading-tight tracking-tight text-gray-900 md:text-6xl">
@@ -22,7 +22,7 @@ function About() {
           </h1>
 
           <p className="mx-auto mt-8 max-w-3xl text-xl leading-9 text-gray-600">
-            ReadMith is an online publication built for curious readers.
+            The Daily Story Hub is an online publication built for curious readers.
             We publish thoughtful articles on technology, artificial
             intelligence, business, fashion, and current events to help
             people understand the world through reliable, easy-to-read,
@@ -31,7 +31,7 @@ function About() {
 
           <img
             src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1600"
-            alt="ReadMith"
+            alt="The Daily Story Hub"
             className="mt-16 h-[320px] w-full rounded-[36px] object-cover shadow-2xl md:h-[520px]"
           />
 
@@ -62,7 +62,7 @@ function About() {
             <p>
               The internet is filled with endless information, but finding
               trustworthy and well-structured content has become increasingly
-              difficult. At ReadMith, we created a place where readers can
+              difficult. At The Daily Story Hub, we created a place where readers can
               discover carefully written articles that explain important ideas
               in a clear and engaging way.
             </p>
@@ -245,11 +245,11 @@ function About() {
               </span>
 
               <h3 className="mt-2 text-2xl font-bold">
-                ReadMith Was Founded
+                The Daily Story Hub Was Founded
               </h3>
 
               <p className="mt-4 leading-8 text-gray-600">
-                We launched ReadMith with a simple goal: publish useful,
+                We launched The Daily Story Hub with a simple goal:
                 educational, and engaging articles that help readers understand
                 today's rapidly changing world.
               </p>
@@ -305,7 +305,7 @@ function About() {
         <div className="mx-auto max-w-6xl rounded-[40px] bg-gradient-to-r from-gray-900 to-blue-700 px-10 py-20 text-center text-white shadow-2xl">
 
           <p className="font-semibold uppercase tracking-[0.3em] text-blue-200">
-            Join ReadMith
+            Join The Daily Story Hub
           </p>
 
           <h2 className="mt-5 text-5xl font-black">
