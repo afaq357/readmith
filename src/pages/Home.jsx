@@ -51,69 +51,6 @@ function Home() {
     <div className="min-h-screen bg-white">
       <Layout>
         
-        {/* ================= HERO SECTION ================= */}
-        <section className="mx-auto max-w-7xl px-6 pt-10 pb-16">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-            
-            {/* Main Hero */}
-            <Link
-              to={`/article/${heroArticle.slug}`}
-              className="group lg:col-span-8 relative rounded-[32px] overflow-hidden shadow-lg ring-1 ring-slate-900/5"
-            >
-              <img
-                src={heroArticle.image}
-                alt={heroArticle.title}
-                className="h-[450px] md:h-[550px] w-full object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent"></div>
-              <div className="absolute bottom-0 left-0 w-full p-8 md:p-12">
-                <span className="inline-block px-4 py-1.5 bg-blue-600 text-white text-xs font-black uppercase tracking-widest rounded-lg mb-4 shadow-sm">
-                  {heroArticle.category}
-                </span>
-                <h2 className="text-3xl md:text-5xl font-black text-white leading-tight mb-4">
-                  {heroArticle.title}
-                </h2>
-                <div className="flex items-center gap-4 text-sm font-medium text-slate-300">
-                  <span>{heroArticle.author}</span>
-                  <span className="h-1 w-1 rounded-full bg-slate-500"></span>
-                  <span>{heroArticle.readTime}</span>
-                </div>
-              </div>
-            </Link>
-
-            {/* Sidebar Hero */}
-            <div className="lg:col-span-4 flex flex-col justify-between gap-6">
-              <h3 className="text-xs font-black uppercase tracking-widest text-slate-400 border-b border-slate-100 pb-4">
-                Trending Now
-              </h3>
-              <div className="flex flex-col gap-6 flex-1 justify-center">
-                {sidebarArticles.map((article) => (
-                  <Link
-                    key={article.id}
-                    to={`/article/${article.slug}`}
-                    className="group flex items-start gap-5"
-                  >
-                    <div className="overflow-hidden rounded-2xl ring-1 ring-slate-900/5 shrink-0">
-                      <img
-                        src={article.image}
-                        className="w-24 h-24 object-cover transition-transform duration-500 group-hover:scale-110"
-                        alt={article.title}
-                      />
-                    </div>
-                    <div className="flex flex-col justify-center py-1">
-                      <span className="text-[10px] font-bold uppercase tracking-widest text-blue-600 mb-1">
-                        {article.category}
-                      </span>
-                      <h4 className="font-bold text-slate-900 group-hover:text-blue-600 leading-snug line-clamp-2 transition-colors">
-                        {article.title}
-                      </h4>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* ================= NEWS & CELEBRITY SPOTLIGHT ================= */}
         <section className="py-20 bg-slate-50 border-t border-slate-100">
