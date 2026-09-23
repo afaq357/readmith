@@ -520,7 +520,7 @@ export const articles = [
   description:
     "Discover how Scarlett Johansson built an extraordinary career through blockbuster films, critically acclaimed performances, and global box office success.",
   category: "celebrities",
-  featured: true,
+  featured: false,
   image:
     "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1200&q=80",
   author: "Editorial Team",
