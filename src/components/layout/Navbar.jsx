@@ -30,7 +30,7 @@ function Navbar() {
             onClick={() => setMobileOpen(false)}
             className="text-2xl md:text-3xl font-black tracking-tight text-slate-900"
           >
-            Read<span className="text-blue-600">Mith</span>
+            The Daily Story Hub
           </Link>
 
           {/* Desktop Links */}
