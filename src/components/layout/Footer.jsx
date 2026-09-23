@@ -25,7 +25,7 @@ function Footer() {
           
           {/* Brand & Info */}
           <div className="space-y-4">
-            <h2 className="text-2xl font-black text-gray-900">ReadMith</h2>
+            <h2 className="text-2xl font-black text-gray-900">The Daily Story Hub</h2>
             <p className="leading-relaxed text-gray-500">
               Premium articles covering tech, business, AI, and global trends.
             </p>
@@ -102,7 +102,7 @@ function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-gray-100">
         <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-400">
-          <p>© {new Date().getFullYear()} ReadMith. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} The Daily Story Hub. All rights reserved.</p>
           <p>Built with React & Tailwind</p>
         </div>
       </div>
